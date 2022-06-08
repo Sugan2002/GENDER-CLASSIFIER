@@ -1,27 +1,53 @@
 # SA-C-GENDER-CLASSIFIER
 # Algorithm
-1.
-2.
-3.
-4.
+1.Install deepface
+
+2.Import necessary packages
+
+3.Read the image
+
+4.Analyze the gender using deepface
+
 
 ## Program:
-```
+```python
 /*
-Program to implement 
-Developed by   :
-RegisterNumber :  
+Program to implement Gender Classification
+Developed by   : P.SUGANYA
+RegisterNumber : 212220230049
 */
+#install deepface
+pip install deepface
+
+#import packages
+from deepface import DeepFace
+import cv2
+import matplotlib.pyplot as plt
+
+#read the image
+img=cv2.imread('GowriM.jpeg')
+plt.imshow(img[:,:,::-1])
+plt.show()
+
+#Analyze gender
+result=DeepFace.analyze(img,actions=['gender'])
+result2=DeepFace.analyze(img,actions=['emotion'])
+
+#print the gender
+print("Gender : ",result['gender'])
 ```
 
 ## OUTPUT:
-```
-/*
+
+
 1. CODE :
-![SKILL ASSESSMENT OUTPUT](XXX.png)
+
+![SA_NN_OUTPUT](https://user-images.githubusercontent.com/77089743/172676247-0d9e298e-ac60-493a-8cf3-27a68371ccaf.PNG)
+
+
 
 2. DEMO VIDEO YOUTUBE LINK:
 
-*/
-```
+
+
 
