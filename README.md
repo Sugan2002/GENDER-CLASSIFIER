@@ -25,7 +25,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 #read the image
-img=cv2.imread('GowriM.jpeg')
+img=cv2.imread('sugan.jpeg')
 plt.imshow(img[:,:,::-1])
 plt.show()
 
