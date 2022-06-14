@@ -41,6 +41,9 @@ print("Gender : ",result['gender'])
 </br>
 </br>
 </br>
+</br>
+</br>
+</br>
 
 ## OUTPUT:
 
