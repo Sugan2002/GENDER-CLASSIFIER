@@ -1,4 +1,4 @@
-# SA-C-GENDER-CLASSIFIER
+# GENDER-CLASSIFIER
 # Algorithm
 1.Install deepface
 
