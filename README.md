@@ -31,7 +31,6 @@ plt.show()
 
 #Analyze gender
 result=DeepFace.analyze(img,actions=['gender'])
-result2=DeepFace.analyze(img,actions=['emotion'])
 
 #print the gender
 print("Gender : ",result['gender'])
